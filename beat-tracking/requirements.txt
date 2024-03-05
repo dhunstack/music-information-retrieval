@@ -1,0 +1,8 @@
+pytest
+mirdata
+librosa
+mir_eval
+numpy
+matplotlib
+ipython
+smart_open
