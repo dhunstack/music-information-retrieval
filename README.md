@@ -17,3 +17,11 @@ We work with the GTZAN-genre mini dataset containing beat annotations for 100 tr
 We predict the beats using classical signal processing approach, and compare it against the RNN implementation of `madmom` library.
 
 We further calculate `F1-score`, `cemgil` and `continuity` metrics to evaluate beat detections and analyse the common errors.
+
+## Pitch Tracking
+
+We work with the MedleyDB-Pitch dataset containing pitch annotations for 103 tracks.
+
+We predict the pitches using `crepe` model, that works directly with the waveforms.
+
+We automate the process of determining voicing threshold for `crepe`, striking the right balance between voicing recall and pitch precision.
