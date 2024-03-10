@@ -1,4 +1,5 @@
 # Music Information Retrieval
+
 ## Sound Classification for Instrument Recognition
 
 We will explore the task of recognizing musical instruments based solely on their sound profiles. This involves distinguishing the nuanced tonal characteristics that each instrument produces, such as the sharp resonance of a violin versus the deep hum of a cello or the distinct timbre of a flute compared to a clarinet.
